@@ -5,7 +5,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
 from datetime import datetime
 
-# تنظیمات احراز هویت
+# تنظیمات احراز هویت زز
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 credentials = ServiceAccountCredentials.from_json_keyfile_name('json.json', scope)
 client = gspread.authorize(credentials)
